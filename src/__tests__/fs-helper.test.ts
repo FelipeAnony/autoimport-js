@@ -11,6 +11,7 @@ describe('File System helper', () => {
             path.join(__dirname, '/test-folder/file-1.ts'),
             path.join(__dirname, '/test-folder/file-2.ts'),
             path.join(__dirname, '/test-folder/file-3.ts'),
+            path.join(__dirname, '/test-folder/file-4.js'),
         ]);
     });
 });

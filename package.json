@@ -8,6 +8,7 @@
     "lib/**/*"
   ],
   "scripts": {
+    "build": "tsc",
     "test": "jest --config jestconfig.json",
     "test:staged": "npm run test -- -o",
     "test:watch": "npm run test -- --watch -o",

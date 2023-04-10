@@ -15,7 +15,9 @@ export const autoimport = async (folderPath: string) => {
     if (!folderPathRegExp.test(folderPath)) throw new BadPathError();
 
     const filesList = await FsHelper.getAllFilesPathFromFolder(folderPath);
-    const files = await Promise.all(filesList.map(async (file) => await import(file)));
+    const files = await Promise.all(
+        filesList.map(async (file) => await import(file)),
+    );
 
     return files;
 };

@@ -1,1 +1,1 @@
-export * from "./autoimport";
+export * from './autoimport';

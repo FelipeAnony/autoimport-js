@@ -2,7 +2,7 @@
   "name": "autoimport-js",
   "version": "1.0.2",
   "description": "tool for autoimport js/ts files",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"

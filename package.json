@@ -19,7 +19,7 @@
     "prepublish" : "npm run lint && npm run format",
     "postPublish": "git push && git push --tags"
   },
-  "keywords": ["autoimport", "auto", "import", "auto-import"],
+  "keywords": ["node", "javascript", "utility", "backend", "autoimport", "auto", "import", "auto-import"],
   "author": "felipeAnony",
   "license": "MIT",
   "devDependencies": {

@@ -38,10 +38,20 @@ const modules = await autoimport(folderPath);
 console.log(modules); // Array of dynamically imported modules
 ```
 
+<br>
+
 ## License
 
 This package is licensed under the MIT License.
 
+<br>
+
 ## Issues
 
 If you encounter any issues, please report them on issues section.
+
+<br>
+
+## SourceCode
+
+You can see the source code here: https://github.com/FelipeAnony/autoimport-js

@@ -54,4 +54,4 @@ If you encounter any issues, please report them on issues section.
 
 ## SourceCode
 
-You can see the source code here: https://github.com/FelipeAnony/autoimport-js
+You can see the source code here: `[See on Github](https://github.com/FelipeAnony/autoimport-js)`

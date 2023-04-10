@@ -11,10 +11,11 @@
     "test": "jest --config jestconfig.json",
     "test:staged": "npm run test -- -o",
     "test:watch": "npm run test -- --watch -o",
+    "test:ci": "npm run test -- --coverage",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "husky install",
-    "prepublish" : "npm test && npm run lint",
+    "prepublish" : "npm run lint && npm run format",
     "postPublish": "git push && git push --tags"
   },
   "keywords": ["autoimport", "auto", "import", "auto-import"],

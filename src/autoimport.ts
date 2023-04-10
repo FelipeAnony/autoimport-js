@@ -1,7 +1,6 @@
-import { BadPathError, MissingParamError } from './errors';
 import { FsHelper } from './helpers/fs-helper';
-
-const folderPathRegExp = /^(\/[a-zA-Z0-9_\-]+)+\/?$/;
+import { BadPathError, MissingParamError } from './errors';
+import { folderPathRegExp } from './utils';
 
 /**
  * Retrieves and returns dynamically imported files from a folder.

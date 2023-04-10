@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tool for autoimport js/ts files",
   "main": "index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -12,9 +13,11 @@
     "test:watch": "npm run test -- --watch -o",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish" : "npm test && npm run lint",
+    "postPublish": "git push && git push --tags"
   },
-  "keywords": [],
+  "keywords": ["autoimport", "auto", "import", "auto-import"],
   "author": "felipeAnony",
   "license": "MIT",
   "devDependencies": {

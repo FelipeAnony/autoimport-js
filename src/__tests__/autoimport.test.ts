@@ -23,4 +23,12 @@ describe('Autoimport', () => {
 
         expect(getAllFilesPathSpy).toBeCalledWith("/valid/folder");
     });
+
+    it("Should return an Array With all dependencies", async () => {
+        const [{ module1 }, { module2 }, { module3 }] = await autoimport(path.join(__dirname, "/test-folder"));
+
+        expect(module1).toEqual({ name: "module1" });
+        expect(module2).toEqual({ name: "module2" });
+        expect(module3).toEqual({ name: "module3" });
+    });
 });

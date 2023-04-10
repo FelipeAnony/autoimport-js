@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tool for autoimport js/ts files",
   "main": "index.js",
+  "files": ["lib/**/*"],
   "scripts": {
     "test": "",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",

@@ -1,7 +1,7 @@
 {
   "name": "autoimport-js",
-  "version": "1.0.3",
-  "description": "tool for autoimport js/ts files",
+  "version": "1.0.4",
+  "description": "A small lib for autoimport js/ts files from a given folder",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
